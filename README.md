@@ -3,7 +3,7 @@
 The contents of this project will be very simple, due to the fact that we won't be deploying this to the real world.
 
 Repo Structure:
-
+```
 | -- notebooks
   | -- Connect-to-API.ipynb
   | -- Parse-API-Data.ipynb
@@ -24,6 +24,7 @@ Repo Structure:
 | -- main.py
 | -- README.md
 | -- requirements.txt
+```
 
 There is a folder in here called 'notebooks', which contain the 4 notebooks that were used to develop the xgboost model.
 
