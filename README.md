@@ -2,7 +2,30 @@
 
 The contents of this project will be very simple, due to the fact that we won't be deploying this to the real world.
 
-There is a file in here called 'notebooks', which contain the 4 notebooks that were used to develop the xgboost model.
+Repo Structure:
+
+| -- notebooks
+  | -- Connect-to-API.ipynb
+  | -- Parse-API-Data.ipynb
+  | -- Data Exploration.ipynb
+  | -- Modelling.ipynb
+| -- src
+  | -- clean_data
+    | -- clean_data.csv
+    | -- player_names.csv
+  | -- models
+    | -- xgb_classifier.pkl
+  | -- PydanticModels
+    | -- __init__.py
+    | -- ProOrAmateur.py
+  | -- __init__.py
+  | -- get_amateur_names.py
+  | -- get_player_prediction.py
+| -- main.py
+| -- README.md
+| -- requirements.txt
+
+There is a folder in here called 'notebooks', which contain the 4 notebooks that were used to develop the xgboost model.
 
 To simplify things whilst also making this script useful, this will not be an end-to-end implementation of the four notebooks (i.e. from Riot API call all the way to prediction.)
 
