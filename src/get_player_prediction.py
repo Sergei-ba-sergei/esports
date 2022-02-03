@@ -20,13 +20,3 @@ def get_player_prediction(name: str):
         result_string = 'Ah, this player needs to keep training'
 
     return result_string
-
-
-
-# need to create function that:
-# takes a player name,
-# filters data by it
-# puts through model
-# gets results & averages, and converts answer to a string depending on number of yes/no vals
-
-# returns just the string
